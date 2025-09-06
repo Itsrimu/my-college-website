@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Educational website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <div class="nav-content">
+          <img src="./eduford_img/logo.png" alt="logo" />
+          <ul id="navLinks">
+            <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Course</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </div>
+      </nav>
+    </section>
+    <h1>About Us</h1>
+
+    <!-- About Us Content -->
+    <section class="about-us">
+      <div class="row">
+        <div class="about-col">
+          <h1>We are the World's Largest University</h1>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id
+            praesentium in laudantium dolor ratione est. Mollitia, voluptatibus.
+            Qui, error cum.
+          </p>
+          <a href="" class="hero-btn red-btn">Explore Now</a>
+        </div>
+        <div class="about-col">
+          <img src="./eduford_img/about.jpg" alt="About Us" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab et vitae
+        praesentium. <br />
+        Quaerat in illum nostrum esse asperiores quam neque.
+      </p>
+      <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-x-twitter"></i>
+        <i class="fa-brands fa-square-linkedin"></i>
+      </div>
+      <p>Made with <i class="fa-solid fa-heart"></i></p>
+    </section>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
