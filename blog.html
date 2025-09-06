@@ -26,11 +26,11 @@
           <img src="./eduford_img/logo.png" alt="logo" />
           <ul id="navLinks">
             <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Course</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">Blog</a></li>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./course.html">Course</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+            <li><a href="./blog.html">Blog</a></li>
           </ul>
           <i class="fa-solid fa-bars" onclick="showMenu()"></i>
         </div>
@@ -52,11 +52,14 @@
     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore sunt temporibus, necessitatibus debitis enim ipsam earum porro incidunt, aut, tempore nobis pariatur? Perspiciatis asperiores quia alias reiciendis eaque qui placeat aliquam nihil, blanditiis pariatur. At nostrum molestias dicta corporis sed vel repellat vero magni, ducimus eos, debitis atque explicabo error.</p>
 <div class="comment-box">
   <h3>Leave a Comment</h3>
-  <form action="" class="comment-form"></form>
-  <input type="text" placeholder="Enter Name">
-  <input type="email" placeholder="Enter Your Email">
-  <textarea name="Comment" id="Comment-area" placeholder="Add your Comment"></textarea>
+  <form action="" class="comment-form">
+    <input type="text" placeholder="Enter Name" required>
+    <input type="email" placeholder="Enter Your Email" required>
+    <textarea rows="5" name="Comment" id="Comment-area" placeholder="Add your Comment" required></textarea>
+    <button type="submit" class="hero-btn red-btn">Post Comment</button>
+  </form>
 </div>
+
   </div>
   <div class="blog-right">
     <h3>Post Categories</h3>

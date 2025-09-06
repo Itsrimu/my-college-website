@@ -24,7 +24,7 @@
       <nav>
         <div class="nav-content">
           <img src="./eduford_img/logo.png" alt="logo" />
-          <ul id="navLinks">
+           <ul id="navLinks">
             <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
             <li><a href="./index.html">Home</a></li>
             <li><a href="./about.html">About</a></li>
@@ -36,22 +36,63 @@
         </div>
       </nav>
     </section>
-    <h1>About Us</h1>
+    <h1>Contact Us</h1>
 
-    <!-- About Us Content -->
-    <section class="about-us">
-      <div class="row">
-        <div class="about-col">
-          <h1>We are the World's Largest University</h1>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id
-            praesentium in laudantium dolor ratione est. Mollitia, voluptatibus.
-            Qui, error cum.
-          </p>
-          <a href="" class="hero-btn red-btn">Explore Now</a>
+    <!-- Contact details -->
+    <section class="location">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d474026.8077705192!2d88.048778!3d21.8446321!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1757175897348!5m2!1sen!2sin"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </section>
+
+    <section class="contact-us">
+      <div class="contact-col">
+        <div>
+          <i class="fa-solid fa-home"></i>
+        <span>
+
+          <h5>
+            XYZ Road , AbC Building
+          </h5>
+            <p>Kharagpur,West Bengal , India</p>
+          </span>
         </div>
-        <div class="about-col">
-          <img src="./eduford_img/about.jpg" alt="About Us" />
+                <div>
+          <i class="fa-solid fa-phone"></i>
+        <span>
+
+          <h5>
+         +91 7875879340
+          </h5>
+          <p>Monday to Saturday, 10Am To Pm</p>
+          </span>
+        </div>
+                <div>
+          <i class="fa-solid fa-envelope"></i>
+        <span>
+
+          <h5>
+         rimu@gmail.com
+          </h5>
+          <p>Email Us for your quesries</p>
+          </span>
+        </div>
+        <div class="contact-col">
+
+<form action="./formHandler.php" method="post">
+  <input type="text" placeholder="Enter your Name" name="name" required>
+  <input type="email" placeholder="Enter Email Address" name="email" required>
+  <input type="text" placeholder="Enter Your Subject" name="subject" required>
+  <textarea rows="8" placeholder="Message" name="Message"></textarea>
+  <button type="submit" class="hero-btn red-btn">Send Message</button>
+</form>
+
         </div>
       </div>
     </section>
